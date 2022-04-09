@@ -1,0 +1,35 @@
+/*titulo*/
+h1 {
+    display: flex;
+    justify-content: center;
+    color: azure;
+    background-color: aquamarine;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+}
+
+.transition:hover {
+    transform: scale(1.1)
+}
+
+.transition {
+    transition: all .8s;
+}
+
+.navbar {
+    margin: 25px 0;
+    justify-content: all;
+}
+
+.img-sizes {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    color: black;
+}
+
+.carousel-inner {
+    padding: 20px 0;
+}
